@@ -2,7 +2,11 @@
   "name": "meanjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/index.js",
+  "dependencies": {
+      "yeoman-generator": "~0.17.1",
+      "chalk": "~0.5.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
